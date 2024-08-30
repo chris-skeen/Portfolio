@@ -153,15 +153,16 @@ body {
   color:#D7D9CE
 }
 
-.pic-of-me-cont {
+.pic-of-me-sum {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .pic-of-me{
   border-radius: 50%;
-  width: 30%;
+  width: 55%;
   border: 3px inset rgb(21, 243, 220);
+  margin: 0% 0% 0% 40%
 }
 
 .curly-line-main-cont {
@@ -180,6 +181,7 @@ body {
 }
 
 .sub-header-name-cont {
+  margin: 0% 0% 0% 0%;
   display: flex;
   justify-content: center;
 }
@@ -206,6 +208,11 @@ body {
 
 }
 
+.about-me-summary {
+  color:#D7D9CE
+
+}
+
 .parents-header-cont {
   display: flex;
   justify-content: center;
@@ -215,31 +222,132 @@ body {
   color:#D7D9CE
 }
 
-.about-me-summary-cont {
+.about-me-summary-cont2 {
   display: flex;
   justify-content: center;
 }
 
+.about-me-summary-cont {
+  border: 3px inset rgb(21, 243, 220);
+  width: 100%;
+  padding: 1%;
+  margin: 0% 10% 0% 0%
+}
+
 .about-me-summary {
+  text-align: center;
+  color:#D7D9CE;
+  font-size: 20pt;
+}
+
+
+.my-interests-header-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.my-interest-header {
+  color:#D7D9CE
+}
+
+.valorant-game-head {
+  color:#D7D9CE
+}
+
+
+.valorant-pic {
+  border: 3px inset rgb(21, 243, 220);
+  width: 30.1%
+}
+
+.video-game-head-cont {
+  display: flex;
+  justify-content: center;
   color: rgb(21, 243, 220)
+}
+
+.deadlock-pic {
+  border: 3px inset rgb(21, 243, 220);
+  width: 30.1%
+}
+
+.rust-pic {
+  border: 3px inset rgb(21, 243, 220);
+  width: 31.5%;
+}
+
+.valorant-pic-row {
+  text-align: center;
+}
+
+.valorant-pic-row2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0% 0% 0% 0%
+}
+
+.game-pic-words {
+  color:#D7D9CE;
+  font-size: 20pt;
+}
+
+.music-head-cont {
+  display: flex;
+  justify-content: center;
+  color: rgb(21, 243, 220)
+}
+
+.all-music-img {
+  width: 25%
+}
+
+.all-music-cont {
+  text-align: center;
+  background-image: linear-gradient(
+    100deg,
+    rgb(21, 243, 220),
+    #D7D9CE
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.welcome-to-page {
+  color: rgb(21, 243, 220)
+}
+
+.what-i-like {
+  text-align: center;
+  color: rgb(21, 243, 220)
+}
+
+.wrk-in-prg {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 40;
+  color: red;
 }
 
 @media only screen and (max-width: 768px) {
 
-  .right-nav-items{
-    margin-right: 13%
+  .pic-of-me-sum {
+    display:block;
+  }
+  .pic-of-me{
+    margin: 0% 0% 0% 0%
+  }
+
+  .about-me-summary {
+    font-size: 10pt;
   }
 
   .nav-items-links {
     padding: 	0%;
   }
 
-  .nav-logo {
-    width: 100%
-  }
-
   .nav-logo-cont .nav-logo .logo-link .logo {
-    width: 60%
+    width: 70%
   }
 
   .about-me-header-cont {
@@ -297,11 +405,35 @@ body {
   }
 
   .abt-me-pics {
-    width: 50%;
+    width: 45%;
     
     border: 3px inset rgb(21, 243, 220);
     border-radius: 10%
   }
 
+  .about-me-summary-cont {
+    border: 3px inset rgb(21, 243, 220);
+    width: 100%;
+    padding: 1%;
+    margin: 0% 0% 0% -1.9%
+  }
 
+  .welcome-to-page {
+    font-size: 15pt;
+  }
+
+  .skill-box-cont {
+    display: grid;
+    gap: 1px;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #2b3148;
+    border: 3px inset rgb(21, 243, 220);
+    width: 100%;
+    padding: 0% 0% 0% 0%;
+    margin: 0% 0% 0% 0%;
+    text-align: center;
+  }
+  .pic-of-m1 {
+    margin: 0% 0% 0% 12%
+  }
 }
