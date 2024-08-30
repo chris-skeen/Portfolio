@@ -72,7 +72,7 @@ body {
 }
 
 .about-me-header-cont {
-  margin: 4% 0% 0% 0%;
+  margin: 4% 0% -4% 0%;
   display: flex;
   justify-content: center;
 }
@@ -81,21 +81,11 @@ body {
   color: #ECDFCC;
 }
 
-.name {
-  color: rgb(21, 243, 220)
-}
-
 .name-cont {
-  display: flex;
-  justify-content: center;
+  margin: 0% 0% -5% 0%
 }
 
-.about-me-cont {
-  display: flex;
-  justify-content: center;
-  width: 38%;
-  margin: auto;
-}
+
 
 .skills-header {
   color: rgb(21, 243, 220)
@@ -194,6 +184,46 @@ body {
   justify-content: center;
 }
 
+.about-me-pics-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.abt-me-pics {
+  width: 25%;
+  
+  border: 3px inset rgb(21, 243, 220);
+  border-radius: 10%
+}
+
+.about-me-summary-header-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-summary-header {
+  color:#D7D9CE
+
+}
+
+.parents-header-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.parents-header {
+  color:#D7D9CE
+}
+
+.about-me-summary-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.about-me-summary {
+  color: rgb(21, 243, 220)
+}
+
 @media only screen and (max-width: 768px) {
 
   .right-nav-items{
@@ -251,32 +281,27 @@ body {
 
   .about-me {
     color:#D7D9CE
+  
   }
+
+  .curly-line {
+    width: 70%
+  }
+
+  .me-mom-fam-img {
+    width: 70%
+  }
+
+  .curly-line-main-cont {
+    margin: -5% 0% -12% 0%
+  }
+
+  .abt-me-pics {
+    width: 50%;
+    
+    border: 3px inset rgb(21, 243, 220);
+    border-radius: 10%
+  }
+
+
 }
-
-.dropdown button {
-  background-color:aquamarine;
-  color: red;
-  padding: 2%;
-  border: none;
-  cursor: pointer;
-}
-
-  .dropdown a {
-    display:block;
-    color: black;
-    text-decoration: none;
-    padding: 2%
-  }
-
-  .dropdown .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgb(21, 243, 220);
-    min-width: 100px;
-    box-shadow: 2px 2px 5px black;
-  }
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
