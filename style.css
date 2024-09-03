@@ -160,7 +160,7 @@ body {
 
 .pic-of-me{
   border-radius: 50%;
-  width: 55%;
+  width: 70%;
   border: 3px inset rgb(21, 243, 220);
   margin: 0% 0% 0% 40%
 }
@@ -329,13 +329,107 @@ body {
   color: red;
 }
 
-@media only screen and (max-width: 768px) {
+.pic-of-m1 {
+  margin: 0% 10% 0% 0%
+}
 
+.curly-line-about-cont {
+  display: flex;
+  justify-content: center;
+  margin: -7.5% 0% -5% 0%
+}
+
+.curly-line-about {
+  width: 30%
+}
+
+.projects-header{
+  color:#D7D9CE
+}
+
+.projects-header-cont {
+  display: flex;
+  justify-content: center;
+  margin: 3% 0% -7.5% 0%;
+}
+
+
+.curly-line-project {
+  width: 30%;
+  margin: 0% 0% -5% 0%;
+}
+
+.curly-line-project-cont {
+  display: flex;
+  justify-content: center;
+}
+
+
+.project-sub-header {
+  color: rgb(21, 243, 220)
+}
+
+.projects-python-header-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.python-video-cont {
+  display:flex;
+  justify-content: center;
+}
+
+.python-summary-cont {
+  display: flex;
+  justify-content: center;
+  width: 45%;
+  border: 3px inset rgb(21, 243, 220);
+  padding: 2.5%
+}
+
+.python-summary {
+  color:#D7D9CE;
+  font-size: 15pt;
+
+}
+
+.python-summary-main-cont {
+  justify-content: center;
+  display: flex;
+}
+
+.python-vid-header-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.python-vid-header {
+  color:rgb(21, 243, 220)
+}
+
+.read-me-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.read-me-a {
+  font-size: 15pt;
+}
+
+.read-me-a:link {
+  color: rgb(21, 243, 220)
+}
+
+.read-me-a:visited  {
+  color: rgb(21, 243, 220)
+}
+
+.read-me-a:hover {
+  color:#D7D9CE;
+}
+@media only screen and (max-width: 768px) {
   .pic-of-me-sum {
     display:block;
-  }
-  .pic-of-me{
-    margin: 0% 0% 0% 0%
   }
 
   .about-me-summary {
@@ -369,9 +463,6 @@ body {
   .main-page-header {
     margin-top: 15%;
     font-size: 20pt;
-  }
-  .pic-of-me {
-    width: 80%;
   }
 
   .sub-header-name{
@@ -414,7 +505,7 @@ body {
   .about-me-summary-cont {
     border: 3px inset rgb(21, 243, 220);
     width: 100%;
-    padding: 1%;
+    padding: 0% -10% 0% 0%;
     margin: 0% 0% 0% -1.9%
   }
 
@@ -434,6 +525,17 @@ body {
     text-align: center;
   }
   .pic-of-m1 {
-    margin: 0% 0% 0% 12%
+    margin: 0% 35% 0% 0%
   }
+  
+  .projects-header-cont {
+    margin: 9% 0% 0% 0%
+  }
+
+  .python-summary-cont {
+    text-align: center;
+    width: 100%;
+    border: 3px inset rgb(21, 243, 220)
+  }
+
 }
