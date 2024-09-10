@@ -445,7 +445,7 @@ body {
   }
 
   .about-me-header-cont {
-    margin: 8% 0% 0% 0%;
+    margin: 8% 0% -18% 0%;
   }
 
   .nav-logo, .logo-link, .logo {
@@ -529,7 +529,7 @@ body {
   }
   
   .projects-header-cont {
-    margin: 9% 0% 0% 0%
+    margin: 9% 0% -18% 0%
   }
 
   .python-summary-cont {
@@ -537,5 +537,16 @@ body {
     width: 100%;
     border: 3px inset rgb(21, 243, 220)
   }
+
+  .curly-line-project {
+    width: 70%;
+    margin: 0% 0% 0% 0%
+  }
+
+  .curly-line-about {
+    width: 70%;
+
+  }
+
 
 }
